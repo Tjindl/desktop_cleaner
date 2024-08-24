@@ -1,6 +1,7 @@
 import os
+dir = input('Enter the directory folder after root user: ')
 
-directory = '/Users/tusharjindal/Desktop'
+directory = '/Users/tusharjindal/' + dir
 os.makedirs(directory + '/Images', exist_ok=True)
 os.makedirs(directory + '/Docs', exist_ok=True)
 os.makedirs(directory + '/Videos', exist_ok=True)
